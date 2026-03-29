@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentification & Authorization/Proof Key for Code Exchange (PKCE).md",
+                "file": "Rust/Macroses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proof Key for Code Exchange (PKCE)"
+              "title": "Macroses"
             }
           }
         ]
@@ -185,11 +185,19 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Authentification & Authorization/OAuth.md",
+    "Rust/Functions.md",
+    "Rust/Macroses.md",
+    "Rust/Blocks & Scopes.md",
+    "Rust/Data types.md",
+    "Rust/Code flow.md",
+    "Rust/Advantages.md",
+    "Rust/About.md",
+    "Osint/About.md",
     "Authentification & Authorization/Proof Key for Code Exchange (PKCE).md",
+    "Osint",
+    "Authentification & Authorization/OAuth.md",
     "Authentification & Authorization/JWT.md",
     "Authentification & Authorization/OpenID Connect (OIDC).md",
-    "Rust/Code flow.md",
     "Authentification & Authorization",
     "Rust/Excesses/fibanachi/target/debug/fibanachi.d",
     "Rust/Excesses/fibanachi/target/debug/fibanachi",
@@ -199,10 +207,6 @@
     "Rust/Excesses/fibanachi/target/debug/incremental/fibanachi-0mutfqt76fj72/s-hgxkpf3jzn-1t668qn-615vsge9j1u4khwp8twe23gd0/query-cache.bin",
     "Rust/Excesses/fibanachi/target/debug/incremental/fibanachi-0mutfqt76fj72/s-hgxkpf3jzn-1t668qn-615vsge9j1u4khwp8twe23gd0/ejupc3b618tf3joaorgn8lt3l.o",
     "Rust/Excesses/fibanachi/target/debug/incremental/fibanachi-0mutfqt76fj72/s-hgxkpf3jzn-1t668qn-615vsge9j1u4khwp8twe23gd0/dep-graph.bin",
-    "Rust/Excesses/fibanachi/target/debug/incremental/fibanachi-0mutfqt76fj72/s-hgxkpf3jzn-1t668qn-615vsge9j1u4khwp8twe23gd0/aq9a2zvue4h85oequqfrf4jwk.o",
-    "Rust/Data types.md",
-    "Rust/About.md",
-    "Rust/Advantages.md",
     "Rust/Terminology/Foreign Function interface (FFI).md",
     "Rust/Terminology/Language Server Protocol (LSP).md",
     "Welcome.md"
