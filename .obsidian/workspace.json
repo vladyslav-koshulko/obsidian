@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Times.md",
+                "file": "AI/Computer Vision/Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Times"
+              "title": "Resources"
             }
           }
         ]
@@ -185,12 +185,20 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
+    "AI/Computer Vision/Terminology.md",
+    "AI/Computer Vision/Resources.md",
+    "AI/Computer Vision/Model Clasification.md",
+    "Backbone.md",
+    "AI/7 Levels of AI User.md",
+    "AI/Computer Vision",
+    "AI/OpenClaw.md",
+    "English/Times.md",
+    "AI",
     "Authentification & Authorization/OAuth.md",
     "Authentification & Authorization/JWT.md",
     "Authentification & Authorization/Proof Key for Code Exchange (PKCE).md",
     "Authentification & Authorization/OpenID Connect (OIDC).md",
     "Osint/About.md",
-    "English/Times.md",
     "Structure.md",
     "English",
     "Rust/Syntax/Blocks & Scopes.md",
@@ -207,8 +215,6 @@
     "Rust/Excesses/fibanachi/target/debug/fibanachi",
     "Rust/Excesses/fibanachi/target/debug/deps/fibanachi-416d6973c8b83c07",
     "Rust/Excesses/fibanachi/target/debug/deps/fibanachi-416d6973c8b83c07.tmp449f0e7",
-    "Rust/Excesses/fibanachi/target/debug/incremental/fibanachi-0mutfqt76fj72/s-hgxkpf3jzn-1t668qn-615vsge9j1u4khwp8twe23gd0/work-products.bin",
-    "Rust/Excesses/fibanachi/target/debug/incremental/fibanachi-0mutfqt76fj72/s-hgxkpf3jzn-1t668qn-615vsge9j1u4khwp8twe23gd0/query-cache.bin",
     "Rust/Terminology/Foreign Function interface (FFI).md",
     "Rust/Terminology/Language Server Protocol (LSP).md"
   ]
