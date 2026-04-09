@@ -56,7 +56,7 @@ OAuth 2.0 — это **framework**, а не строгий протокол
 
 - [[OpenID Connect (OIDC)]]
 - [[Proof Key for Code Exchange (PKCE)]]
-- [[JWT]]
+- [[JWT (JSON Web Token)]]
 
 ### Минус OAuth 2.0
 
@@ -83,7 +83,7 @@ OAuth 2.0 — это **framework**, а не строгий протокол
 
 1. Проще внедрить
 2. Подходит под web + mobile + backend
-3. Расширяем ([[OpenID Connect (OIDC)]], [[JWT]])
+3. Расширяем ([[OpenID Connect (OIDC)]], [[JWT (JSON Web Token)]])
 4. Поддерживается всеми (Google, GitHub и т.д.)
 
 ### Итог
@@ -91,3 +91,21 @@ OAuth 2.0 — это **framework**, а не строгий протокол
 - OAuth 1.0 → безопасный, но сложный
 - OAuth 2.0 → простой, гибкий, стал стандартом
 - [[OpenID Connect (OIDC)]] → добавил аутентификацию
+
+
+## OAuth 2.0
+
+### 📌 Что это
+
+Протокол авторизации:
+
+User → Google → Access Granted → App
+
+---
+
+### 📌 Flow (Authorization Code)
+
+1. Redirect user → Google  
+2. User login + consent  
+3. Google → redirect with code  
+4. Backend → exchange code → tokens

@@ -1,5 +1,5 @@
 Authentication & Authorization
-- [[JWT]]
+- [[JWT (JSON Web Token)]]
 - [[OAuth]]
 - [[OpenID Connect (OIDC)]]
 - [[Proof Key for Code Exchange (PKCE)]]

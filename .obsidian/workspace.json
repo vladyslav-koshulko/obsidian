@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Computer Vision/Resources.md",
+                "file": "AI/Computer Vision/Model Clasification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resources"
+              "title": "Model Clasification"
             }
           }
         ]
@@ -185,21 +185,23 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "AI/Computer Vision/Terminology.md",
     "AI/Computer Vision/Resources.md",
+    "AI/Computer Vision/Terminology.md",
+    "AI/7 Levels of AI User.md",
+    "AI/OpenClaw.md",
+    "Authentification & Authorization/About and structure.md",
+    "Structure.md",
+    "Authentification & Authorization/JWT (JSON Web Token).md",
+    "Authentification & Authorization/JWKS (JSON Web Key Set).md",
+    "Authentification & Authorization/OpenID Connect (OIDC).md",
+    "Authentification & Authorization/OAuth.md",
     "AI/Computer Vision/Model Clasification.md",
     "Backbone.md",
-    "AI/7 Levels of AI User.md",
     "AI/Computer Vision",
-    "AI/OpenClaw.md",
     "English/Times.md",
     "AI",
-    "Authentification & Authorization/OAuth.md",
-    "Authentification & Authorization/JWT.md",
     "Authentification & Authorization/Proof Key for Code Exchange (PKCE).md",
-    "Authentification & Authorization/OpenID Connect (OIDC).md",
     "Osint/About.md",
-    "Structure.md",
     "English",
     "Rust/Syntax/Blocks & Scopes.md",
     "Rust/Advantages.md",
