@@ -1,3 +1,4 @@
+#auth #flow
 ### Detailed Flow
 #### 🔹 Шаг 1 — Redirect на Authorization Server
 
@@ -75,3 +76,11 @@ OAuth НЕ про логин
 OAuth про доступ к API
 
 ---
+
+
+## 🔗 Связи  
+  
+- [[Overview]]  
+- [[Security]]  
+- [[Data & Credentials]]
+- [[Implementation]]

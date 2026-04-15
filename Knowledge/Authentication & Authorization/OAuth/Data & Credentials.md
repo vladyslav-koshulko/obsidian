@@ -1,3 +1,5 @@
+#auth #data #credentials
+
 ## 🧠 Роли
 
 - **Resource Owner** → пользователь  
@@ -33,3 +35,10 @@
 - refresh_token → обновление
 - id_token → identity ([[OIDC]])
 ---
+
+# 🔗 Связи  
+  
+- [[Overview]]  
+- [[Security]]  
+- [[Data & Credentials]]
+- [[Attacks]]

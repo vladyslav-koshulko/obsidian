@@ -1,3 +1,4 @@
+#auth #security 
 ## 🔐 Безопасность (критично)
 
 - `state` → защита от CSRF  
@@ -34,3 +35,16 @@
 - хранить client_secret в frontend ❌  
 - не проверять state ❌  
 - давать слишком широкие scope ❌  
+---
+
+## 🔗 Связи  
+  
+- [[Overview]]  
+- [[Data & Credentials]]
+- [[Attacks]]
+- [[Use Cases]]
+
+- [[OIDC]]
+- [[JWT]]
+- [[PKCE]]
+- [[CSRF]]

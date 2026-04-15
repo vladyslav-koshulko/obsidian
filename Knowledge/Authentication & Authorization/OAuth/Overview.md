@@ -1,3 +1,5 @@
+#auth
+
 # General
 ## 🧠 Суть (TL;DR)
 OAuth 2.0 — это **делегированная авторизация**.
@@ -60,7 +62,7 @@ OAuth — это как “ключ от квартиры”:
 - OIDC → идентификация
 
 # Flow
-## 🔁 Основной [[OAuth Authorization Code Flow]] (Authorization Code)
+## 🔁 Основной [[Authorization Code Flow]] (Authorization Code)
 
 1. Redirect пользователя на Authorization Server  
 2. Пользователь логинится + даёт consent  
@@ -86,3 +88,8 @@ User → Authorization Server → code → Backend → access_token → API
 - [[JWT]]
 - [[TLS]]
 - [[Authentication vs Authorization]]
+---
+
+- [[Authorization Code Flow]]
+- [[Data & Credentials]]
+- [[Security]]  

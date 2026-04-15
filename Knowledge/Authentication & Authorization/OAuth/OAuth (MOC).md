@@ -1,24 +1,30 @@
-
+#auth
+# Concept
 ## 📌 Основы
-- [[OAuth 2.0]]
-
-## 🔁 Flows
-- [[OAuth Authorization Code Flow]]
-- [[OAuth Data & Credentials]]
-
+- [[Overview]]
 ## История
-- [[OAuth History]]
+- [[History]]
+
+---
+# Detail
+## 🔁 Flows  
+- [[Authorization Code Flow]]  
+- [[Client Credentials Flow]] ← добавить  
+  
+## 📦 Data & Tokens  
+- [[Data & Credentials]]
 
 ## 🔐 Безопасность
-- [[OAuth Security]]
+- [[Security]]
+- [[Attacks]]
 - [[PKCE]]
 
 ## 🧠 Расширения
 - [[OIDC]]
 - [[JWT]]
-
-## 💡 Практика
-- [[OAuth Implementation]]
-
-## Resources
-- [[OAuth Resources]]
+---
+# 💡 Практика
+- [[Implementation]]
+---
+# Resources
+- [[Knowledge/Authentication & Authorization/OAuth/Resources]]

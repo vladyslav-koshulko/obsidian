@@ -1,4 +1,0 @@
-- token leakage
-- CSRF
-- redirect attacks
-- misconfiguration

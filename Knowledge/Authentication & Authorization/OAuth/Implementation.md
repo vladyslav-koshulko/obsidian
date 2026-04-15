@@ -1,3 +1,10 @@
+#auth #implementation
+## 🧠 Что делает этот код  
+  
+- генерирует auth URL  
+- обрабатывает callback  
+- меняет code → token
+
 ## 💻 Пример (минимальный)
 
 ### 1. Получение URL
@@ -104,3 +111,11 @@ async function getUserInfo(accessToken) {
 
 ---
 
+
+## 🔗 Связи  
+  
+- [[Overview]]  
+- [[Security]]  
+- [[Data & Credentials]]
+- [[Knowledge/Authentication & Authorization/OAuth/Resources]]
+- [[Use Cases]]

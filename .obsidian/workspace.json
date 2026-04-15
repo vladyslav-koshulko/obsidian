@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Authentication & Authorization/OAuth/OAuth Attacks.md",
+                "file": "Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth Attacks"
+              "title": "Structure"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -185,18 +185,19 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Knowledge/Authentication & Authorization/About and structure.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Attacks.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth 2.0.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Use Cases.md",
+    "Без назви.canvas",
+    "Knowledge/Authentication & Authorization/OAuth/Attacks.md",
+    "Knowledge/Authentication & Authorization/OAuth/Use Cases.md",
+    "Knowledge/Authentication & Authorization/OAuth/Data & Credentials.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Data & Credentials.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Security.md",
+    "Knowledge/Authentication & Authorization/OAuth/Security.md",
+    "Knowledge/Authentication & Authorization/OAuth/Resources.md",
+    "Knowledge/Authentication & Authorization/OAuth/Implementation.md",
+    "Knowledge/Authentication & Authorization/OAuth/Authorization Code Flow.md",
+    "Knowledge/Authentication & Authorization/OAuth/History.md",
+    "Knowledge/Authentication & Authorization/OAuth/Overview.md",
+    "Knowledge/Authentication & Authorization/About and structure.md",
     "Knowledge/Authentication & Authorization/Production Authentication.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Resources.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth History.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Authorization Code Flow.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth Implementation.md",
     "Knowlage/Authentification & Authorization/OAuth.md",
     "Authentication vs Authorization.md",
     "Knowledge/Authentication & Authorization/OAuth",
@@ -216,7 +217,6 @@
     "Knowledge/AI/Computer Vision/Terminology.md",
     "Knowledge/AI/7 Levels of AI User.md",
     "Knowledge/AI/OpenClaw.md",
-    "Backbone.md",
     "Knowledge/AI/Computer Vision",
     "Knowledge/AI",
     "Knowledge/English",
