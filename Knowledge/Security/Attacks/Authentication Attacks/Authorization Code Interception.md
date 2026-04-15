@@ -68,8 +68,8 @@ const params = {
 
 
 # Связи
-- [[Attacks]]
+- [[OAuth - Attacks]]
 - [[PKCE]]
-- [[Data & Credentials]]
-- [[Knowledge/Authentication & Authorization/OAuth/Overview|Overview]]
-- [[Security]]
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Overview|OAuth - Overview]]
+- [[OAuth - Security]]

@@ -73,9 +73,9 @@ state связывает request ↔ response
 
 
 # Связи
-- [[Knowledge/Authentication & Authorization/OAuth/Overview|Overview]]
-- [[Data & Credentials]]
-- [[Attacks]]
-- [[Security]]
-- [[Authorization Code Flow]]
+- [[OAuth - Overview|OAuth - Overview]]
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Attacks]]
+- [[OAuth - Security]]
+- [[OAuth - Authorization Code Flow]]
 

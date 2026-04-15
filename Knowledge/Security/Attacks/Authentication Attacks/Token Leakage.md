@@ -53,7 +53,7 @@ res.cookie("session", sessionId, {
 если JS может читать токен → его украдут
 
 # Связи
-- [[Knowledge/Authentication & Authorization/OAuth/Overview|Overview]]
-- [[Data & Credentials]]
-- [[Attacks]]
-- [[Security]]
+- [[OAuth - Overview|OAuth - Overview]]
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Attacks]]
+- [[OAuth - Security]]

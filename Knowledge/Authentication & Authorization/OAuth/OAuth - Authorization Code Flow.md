@@ -1,4 +1,14 @@
 #auth #flow
+
+
+## 🧱 Grant Types
+
+- Authorization Code (основной)
+- Client Credentials (service-to-service)
+- Implicit ❌ (deprecated)
+- Password ❌ (deprecated)
+
+
 ### Detailed Flow
 #### 🔹 Шаг 1 — Redirect на Authorization Server
 
@@ -25,11 +35,11 @@ User → Google login → Consent screen
 #### 🔹 Шаг 3 — Redirect назад
 
 Google → redirect_uri
-
 ##### 📌 Пример:
-
 http://localhost:8081/callback?code=abc123&state=xyz
 
+⚠️ риск:  
+- [[Authorization Code Interception]]
 #### 🔹 Шаг 4 — Backend получает code
 
 Server ← code
@@ -80,7 +90,7 @@ OAuth про доступ к API
 
 ## 🔗 Связи  
   
-- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
-- [[Security]]  
-- [[Data & Credentials]]
-- [[Implementation]]
+- [[OAuth - Overview]]  
+- [[OAuth - Security]]  
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Implementation]]

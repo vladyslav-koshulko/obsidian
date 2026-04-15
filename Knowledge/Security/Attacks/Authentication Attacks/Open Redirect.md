@@ -46,7 +46,7 @@ redirect_uri должен быть фиксирован
 
 
 # Связи
-- [[Attacks]]
-- [[Knowledge/Authentication & Authorization/OAuth/Overview|Overview]]
-- [[Data & Credentials]]
-- [[Security]]
+- [[OAuth - Attacks]]
+- [[OAuth - Overview|OAuth - Overview]]
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Security]]

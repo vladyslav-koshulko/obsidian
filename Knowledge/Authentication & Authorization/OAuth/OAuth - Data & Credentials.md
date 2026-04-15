@@ -21,14 +21,6 @@
 | `state`         | защита от CSRF           |
 
 ---
-
-## 🧱 Grant Types
-
-- Authorization Code (основной)
-- Client Credentials (service-to-service)
-- Implicit ❌ (deprecated)
-- Password ❌ (deprecated)
----
 ## 🎟 Типы токенов
 
 - access_token → доступ к API
@@ -38,7 +30,7 @@
 
 # 🔗 Связи  
   
-- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
-- [[Security]]  
-- [[Data & Credentials]]
-- [[Attacks]]
+- [[OAuth - Overview]]  
+- [[OAuth - Security]]  
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Attacks]]

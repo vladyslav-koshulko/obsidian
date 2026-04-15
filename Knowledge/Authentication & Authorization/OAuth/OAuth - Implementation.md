@@ -197,8 +197,8 @@ jwt.verify(token, PUBLIC_KEY, {
 
 ## 🔗 Связи
 
-- [[Security]]
-- [[Attacks]]
+- [[OAuth - Security]]
+- [[OAuth - Attacks]]
 - [[PKCE]]
 - [[JWT]]
 - [[CSRF (Cross-Site Request Forgery)]]
@@ -570,10 +570,10 @@ Zero Trust → максимум безопасности
 
 ## 🔗 Связи
 
-- [[Knowledge/Authentication & Authorization/OAuth/Overview| OAuth 2.0]]
+- [[OAuth - Overview| OAuth 2.0]]
 - [[JWT]]
 - [[PKCE]]
-- [[Security|OAuth Security]]
+- [[OAuth - Security|OAuth Security]]
 - [[Microservices Architecture]]
 
 ---
@@ -709,8 +709,8 @@ async function getUserInfo(accessToken) {
 
 # 🔗 Связи  
   
-- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
-- [[Security]]  
-- [[Data & Credentials]]
-- [[Knowledge/Authentication & Authorization/OAuth/Resources]]
-- [[Use Cases]]
+- [[OAuth - Overview]]  
+- [[OAuth - Security]]  
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Resources]]
+- [[OAuth - Use Cases]]

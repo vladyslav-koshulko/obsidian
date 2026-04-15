@@ -17,6 +17,14 @@
 👉 решение:
 - [[PKCE]]
 - strict redirect_uri
+
+## 🚨 Critical (must-have)  
+  
+- PKCE  
+- state  
+- strict redirect_uri  
+- token storage (no localStorage)
+
 ---
 ## ⚠️ Ограничения
 
@@ -39,10 +47,10 @@
 
 ## 🔗 Связи  
   
-- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
-- [[Data & Credentials]]
-- [[Attacks]]
-- [[Use Cases]]
+- [[OAuth - Overview]]  
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Attacks]]
+- [[OAuth - Use Cases]]
 
 - [[OIDC]]
 - [[JWT]]

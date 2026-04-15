@@ -25,16 +25,21 @@ OAuth ломают не алгоритмы, а:
 
 ---
 
-## 🎯 Authorization Code Interception
 
-### 📌 Что это
-
-Перехват `code`
-
-### ⚙️ Как работает
-
-- attacker перехватывает redirect
-- использует code раньше backend
+## 🎯 Authorization Code Interception  
+  
+### 📌 Где возникает  
+- public client  
+- нет PKCE  
+  
+### 💥 Реальный сценарий  
+1. attacker перехватывает redirect  
+2. получает code  
+3. делает exchange раньше backend  
+  
+### 🔐 Защита  
+- [[PKCE]]  
+- short-lived code
 
 ## 🔁 CSRF (в OAuth)
 
@@ -165,9 +170,9 @@ state == expected_state
 
 # 🔗 Связи  
   
-- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
-- [[Security]]  
-- [[Data & Credentials]]
+- [[OAuth - Overview]]  
+- [[OAuth - Security]]  
+- [[OAuth - Data & Credentials]]
 ---
 - [[Authorization Code Interception]]
 - [[CSRF (Cross-Site Request Forgery)]]

@@ -62,7 +62,7 @@ OAuth — это как “ключ от квартиры”:
 - OIDC → идентификация
 
 # Flow
-## 🔁 Основной [[Authorization Code Flow]] (Authorization Code)
+## 🔁 Основной [[OAuth - Authorization Code Flow]] (Authorization Code)
 
 1. Redirect пользователя на Authorization Server  
 2. Пользователь логинится + даёт consent  
@@ -90,6 +90,6 @@ User → Authorization Server → code → Backend → access_token → API
 - [[Authentication vs Authorization]]
 ---
 
-- [[Authorization Code Flow]]
-- [[Data & Credentials]]
-- [[Security]]  
+- [[OAuth - Authorization Code Flow]]
+- [[OAuth - Data & Credentials]]
+- [[OAuth - Security]]  
