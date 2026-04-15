@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowlage/Authentification & Authorization/OAuth/OAuth 2.0.md",
+                "file": "Knowledge/Authentication & Authorization/OAuth/OAuth Attacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth 2.0"
+              "title": "OAuth Attacks"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302.5
   },
   "right": {
     "id": "729b27f3c9b0fadc",
@@ -185,41 +185,41 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Knowlage/Authentification & Authorization/OAuth/OAuth Security.md",
-    "Knowlage/Authentification & Authorization/OAuth/OAuth 2.0.md",
-    "Knowlage/Authentification & Authorization/Production Authentication.md",
-    "Knowlage/Authentification & Authorization/About and structure.md",
-    "Knowlage/Authentification & Authorization/OAuth/OAuth Resources.md",
-    "Knowlage/Authentification & Authorization/OAuth/OAuth History.md",
-    "Knowlage/Authentification & Authorization/OAuth/OAuth Flow.md",
-    "Knowlage/Authentification & Authorization/OAuth/OAuth Examples.md",
+    "Knowledge/Authentication & Authorization/About and structure.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Attacks.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth 2.0.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Use Cases.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Data & Credentials.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Security.md",
+    "Knowledge/Authentication & Authorization/Production Authentication.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Resources.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth History.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Authorization Code Flow.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth Implementation.md",
     "Knowlage/Authentification & Authorization/OAuth.md",
     "Authentication vs Authorization.md",
-    "Knowlage/Authentification & Authorization/OAuth",
+    "Knowledge/Authentication & Authorization/OAuth",
     "Temlates/Knowledge template.md",
-    "Knowlage/Authentification & Authorization/PKCE.md",
+    "Knowledge/Authentication & Authorization/PKCE.md",
     "Projects/Rust",
     "Temlates",
     "Projects",
-    "Knowlage",
+    "Knowledge",
     "Inbox",
-    "Knowlage/Authentification & Authorization/JWKS.md",
-    "Knowlage/Authentification & Authorization/OIDC.md",
-    "Knowlage/Authentification & Authorization/JWT.md",
+    "Knowledge/Authentication & Authorization/JWKS.md",
+    "Knowledge/Authentication & Authorization/OIDC.md",
+    "Knowledge/Authentication & Authorization/JWT.md",
     "Structure.md",
-    "Knowlage/AI/Computer Vision/Model Clasification.md",
-    "Knowlage/AI/Computer Vision/Resources.md",
-    "Knowlage/AI/Computer Vision/Terminology.md",
-    "Knowlage/AI/7 Levels of AI User.md",
-    "Knowlage/AI/OpenClaw.md",
+    "Knowledge/AI/Computer Vision/Model Clasification.md",
+    "Knowledge/AI/Computer Vision/Resources.md",
+    "Knowledge/AI/Computer Vision/Terminology.md",
+    "Knowledge/AI/7 Levels of AI User.md",
+    "Knowledge/AI/OpenClaw.md",
     "Backbone.md",
-    "Knowlage/AI/Computer Vision",
-    "Knowlage/English/Times.md",
-    "Knowlage/AI",
-    "Knowlage/Osint/About.md",
-    "Knowlage/English",
-    "Knowlage/Rust/Syntax/Blocks & Scopes.md",
-    "Knowlage/Rust/Advantages.md",
-    "Knowlage/Rust/Syntax"
+    "Knowledge/AI/Computer Vision",
+    "Knowledge/AI",
+    "Knowledge/English",
+    "Knowledge/Rust/Syntax"
   ]
 }

@@ -54,45 +54,13 @@ OAuth — это как “ключ от квартиры”:
 - Microservices (Client Credentials)
 ---
 
+## Сравнение
+  
+- OAuth → доступ  
+- OIDC → идентификация
 
-# Data
-## 🧠 Роли
-
-- **Resource Owner** → пользователь  
-- **Client** → приложение  
-- **Authorization Server** → Google  
-- **Resource Server** → API  
-
----
-
-## 🔑 Основные данные
-
-| Данные          | Где используются         |
-| --------------- | ------------------------ |
-| `client_id`     | идентификатор приложения |
-| `client_secret` | секрет (только backend)  |
-| `redirect_uri`  | куда вернуться           |
-| `code`          | временный код            |
-| `access_token`  | доступ к API             |
-| `state`         | защита от CSRF           |
-
----
-
-## 🧱 Grant Types
-
-- Authorization Code (основной)
-- Client Credentials (service-to-service)
-- Implicit ❌ (deprecated)
-- Password ❌ (deprecated)
----
-## 🎟 Типы токенов
-
-- access_token → доступ к API
-- refresh_token → обновление
-- id_token → identity ([[OIDC]])
----
 # Flow
-## 🔁 Основной [[OAuth Flow]] (Authorization Code)
+## 🔁 Основной [[OAuth Authorization Code Flow]] (Authorization Code)
 
 1. Redirect пользователя на Authorization Server  
 2. Пользователь логинится + даёт consent  
@@ -118,9 +86,3 @@ User → Authorization Server → code → Backend → access_token → API
 - [[JWT]]
 - [[TLS]]
 - [[Authentication vs Authorization]]
-
-- [[OAuth Flow]]
-- [[OAuth Security]]
-- [[OAuth Examples]]
-- [[OAuth History]]
-- [[OAuth Resources]]
