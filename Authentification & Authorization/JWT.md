@@ -1,3 +1,4 @@
+JWT - (JSON Web Token)
 ## Structure
 ```
 header.payload.signature

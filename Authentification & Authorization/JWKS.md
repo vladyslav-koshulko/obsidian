@@ -1,3 +1,5 @@
+**JWKS - JSON Web Key Set**
+
 ## 📌 Что это
 
 Endpoint с публичными ключами:

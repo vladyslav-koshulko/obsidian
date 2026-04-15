@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Computer Vision/Model Clasification.md",
+                "file": "Authentification & Authorization/PKCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model Clasification"
+              "title": "PKCE"
             }
           }
         ]
@@ -185,22 +185,23 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
+    "Authentification & Authorization/About and structure.md",
+    "Authentification & Authorization/JWKS.md",
+    "Authentification & Authorization/OIDC.md",
+    "Authentification & Authorization/JWT.md",
+    "Structure.md",
+    "Authentification & Authorization/Production Authentication.md",
+    "Authentification & Authorization/OAuth.md",
+    "AI/Computer Vision/Model Clasification.md",
     "AI/Computer Vision/Resources.md",
     "AI/Computer Vision/Terminology.md",
     "AI/7 Levels of AI User.md",
     "AI/OpenClaw.md",
-    "Authentification & Authorization/About and structure.md",
-    "Structure.md",
-    "Authentification & Authorization/JWT (JSON Web Token).md",
-    "Authentification & Authorization/JWKS (JSON Web Key Set).md",
-    "Authentification & Authorization/OpenID Connect (OIDC).md",
-    "Authentification & Authorization/OAuth.md",
-    "AI/Computer Vision/Model Clasification.md",
     "Backbone.md",
     "AI/Computer Vision",
     "English/Times.md",
     "AI",
-    "Authentification & Authorization/Proof Key for Code Exchange (PKCE).md",
+    "Authentification & Authorization/PKCE.md",
     "Osint/About.md",
     "English",
     "Rust/Syntax/Blocks & Scopes.md",
