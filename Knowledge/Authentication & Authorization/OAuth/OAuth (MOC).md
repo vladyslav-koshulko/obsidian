@@ -1,7 +1,7 @@
 #auth
 # Concept
 ## 📌 Основы
-- [[Overview]]
+- [[Knowledge/Authentication & Authorization/OAuth/Overview]]
 ## История
 - [[History]]
 

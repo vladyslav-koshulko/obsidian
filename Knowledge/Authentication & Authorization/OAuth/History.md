@@ -121,7 +121,7 @@ OAuth 2.0 — это **framework**, а не строгий протокол
 
 ## 🔗 Связи  
   
-- [[Overview]]  
+- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
 - [[Security]]  
 - [[Data & Credentials]]
 ---

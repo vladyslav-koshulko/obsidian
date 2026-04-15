@@ -6,7 +6,7 @@
 
 | Технология                               | Описание                                    | Когда использовать                      |
 | ---------------------------------------- | ------------------------------------------- | --------------------------------------- |
-| **[[Overview]]**                        | Стандарт авторизации, делегирование доступа | Вход через Google/GitHub, API доступ    |
+| **[[Knowledge/Authentication & Authorization/OAuth/Overview]]**                        | Стандарт авторизации, делегирование доступа | Вход через Google/GitHub, API доступ    |
 | **[[OIDC]] (OpenID Connect)**            | Надстройка OAuth 2.0 для аутентификации     | SSO, получение профиля пользователя     |
 | **SAML 2.0**                             | XML-based SSO для enterprise                | Корпоративные интеграции, ADFS          |
 | **LDAP**                                 | Доступ к директориям (Active Directory)     | Внутренние корпоративные системы        |
@@ -180,7 +180,7 @@ Session = удобство использования
 # Structure
 - [[JWKS]]
 - [[JWT]]
-- [[Overview]]
+- [[Knowledge/Authentication & Authorization/OAuth/Overview]]
 - [[OIDC]]
 - [[PKCE]]
 - SSO

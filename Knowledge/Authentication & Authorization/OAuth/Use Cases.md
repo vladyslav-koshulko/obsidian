@@ -12,7 +12,7 @@
 
 ## 🔗 Связи  
   
-- [[Overview]]  
+- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
 - [[Security]]  
 - [[Data & Credentials]]
 - [[Implementation]]

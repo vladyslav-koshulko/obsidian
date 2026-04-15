@@ -1,7 +1,7 @@
 #auth #security 
 ## 🔐 Безопасность (критично)
 
-- `state` → защита от CSRF  
+- `state` → защита от [[CSRF (Cross-Site Request Forgery)]]  
 - `redirect_uri` должен совпадать  
 - `client_secret` только на backend  
 - всегда HTTPS (TLS)
@@ -39,7 +39,7 @@
 
 ## 🔗 Связи  
   
-- [[Overview]]  
+- [[Knowledge/Authentication & Authorization/OAuth/Overview]]  
 - [[Data & Credentials]]
 - [[Attacks]]
 - [[Use Cases]]
@@ -47,4 +47,4 @@
 - [[OIDC]]
 - [[JWT]]
 - [[PKCE]]
-- [[CSRF]]
+- [[CSRF (Cross-Site Request Forgery)]]
