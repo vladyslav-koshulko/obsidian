@@ -217,18 +217,229 @@ OpenClaw умеет читать переменные окружения:
 
 
 
+### Разбор ключевых секций openclaw.json
+
+#### gateway: как работает OpenClaw как сервис
+
+Простейший пример:
+
+```
+{  gateway: {    mode: "local",    port: 18789,    bind: "loopback",    auth: {      mode: "token",      token: "super-secret-token",    },  },}
+```
+
+- Что здесь важно новичку
+    
+    - `mode`: обычно нужен `local`.
+        
+    - `port`: по умолчанию часто `18789`.
+        
+    - `bind`:
+        
+        - `loopback` — безопасный вариант (доступ только локально).
+            
+        - `lan` — слушать на всех интерфейсах.
+            
+        - `tailnet` — для Tailscale.
+            
+        - `custom` — кастомный bind.
+            
+    - `auth`: чтобы не оставить Gateway без защиты, настрой токен.
+        
+
+---
+
+#### agents: кто вообще у тебя работает
+
+Минимальный стартовый пример:
+
+```
+{  agents: {    defaults: {      workspace: "~/.openclaw/workspace",      model: {        primary: "openai/gpt-5.4",      },    },  },}
+```
+
+- На что смотреть в `agents.defaults`
+    
+    - `workspace`: папка, где живёт агент.
+        
+    - `model`: основная модель, можно настроить fallback.
+        
+    - `userTimezone`: чтобы heartbeat и расписания работали адекватно.
+        
+    - `heartbeat`: автономность (ниже — отдельный раздел).
+        
+
+---
+
+#### channels: откуда агент получает сообщения
+
+Пример для Telegram:
+
+```
+{  channels: {    telegram: {      enabled: true,      botToken: "123456:ABCDEF",      dmPolicy: "pairing",      groups: {        "*": { requireMention: true },      },    },  },}
+```
+
+**Ментальная модель:** `channels` отвечает на вопрос: через какие мессенджеры можно достучаться и на каких правилах.
 
 
+#### bindings: как сообщения попадают к конкретному агенту
+
+Пример:
+
+```
+{
+  bindings: [
+    { agentId: "main", match: { channel: "telegram", accountId: "default" } },
+    { agentId: "ops", match: { channel: "telegram", accountId: "ops-bot" } },
+  ],
+}
+```
+
+> `channels` описывает входные двери, а `bindings` решает, в какую комнату отправить посетителя.
 
 
+#### session: как живёт память разговора
+
+```
+{  session: {    dmScope: "per-channel-peer",    reset: {      mode: "idle",      idleMinutes: 180,    },    threadBindings: {      enabled: true,      idleHours: 24,    },  },}
+```
 
 
+#### messages: как агент отвечает
 
+```
+{  messages: {    ackReaction: "👀",    queue: {      mode: "collect",      debounceMs: 1000,    },    inbound: {      debounceMs: 1500,    },  },}
+```
+
+#### tools: что агенту вообще разрешено
+
+Безопасный старт:
+
+```
+{  tools: {    profile: "coding",    deny: ["browser", "canvas"],    elevated: {      enabled: false,    },  },}
+```
+
+### Heartbeat: автономность без хаоса
+
+Большинство агентов реактивны: написал — ответил. Heartbeat делает агента проактивным. Это чуть ли не самое крутое что есть в OpenClaw.  
+По таймеру Gateway отправляет агенту сигнал, и тот решает — есть ли что-то, о чём стоит сообщить, или нужно выполнить фоновую задачу. Это может быть проверка статуса деплоя, напоминание о зависшей задаче или утренний дайджест. По сути, heartbeat превращает агента из собеседника в фонового ассистента, который работает даже когда ты ему не пишешь.
+
+Если `openclaw.json` — мозг конфигурации, то **heartbeat — сердце автономной работы**.
+
+Heartbeat очень мощный, но легко становится источником шума и расхода токенов, если не задать понятный сценарий.
+
+#### Как включается heartbeat
+
+```
+{  agents: {    defaults: {      heartbeat: {        every: "30m",        target: "last",        directPolicy: "allow",        lightContext: false,      },    },  },}
+```
+
+- Что значат основные настройки
+    
+    - `every`: интервал (`30m`, `1h`, `2h`, `0m` — выключить).
+        
+    - `target`: куда отправлять результат (`none`, `last`, конкретный канал).
+        
+    - `directPolicy`: можно ли писать в личку.
+        
+    - `lightContext`: облегчённый контекст, в основном с опорой на [`HEARTBEAT.md`](http://heartbeat.md/).
+        
+
+#### Зачем нужен HEARTBEAT.md
+
+Без [`HEARTBEAT.md`](http://heartbeat.md/) heartbeat часто превращается в:
+
+- шумного собеседника, который дёргает без дела;
+    
+- дорогой таймер, который регулярно сжигает токены.
+    
+
+[`HEARTBEAT.md`](http://heartbeat.md/) — это **чеклист автономного режима**.
+
+Пример:
+
+```
+# HEARTBEAT- Проверь, есть ли что-то срочное или зависшее в текущих задачах.- Если есть блокер — коротко скажи, что именно мешает.- Если есть законченный важный результат — коротко сообщи.- Не дёргай без причины.- Если ничего важного нет, отвечай HEARTBEAT_OK.- Ночью без срочности не пиши.
+```
+
+### Telegram: как настроить бота нормально
+
+#### Базовый конфиг Telegram‑бота
+
+```
+{  channels: {    telegram: {      enabled: true,      botToken: "123456:ABCDEF",      dmPolicy: "pairing",      groups: {        "*": { requireMention: true },      },      historyLimit: 50,      replyToMode: "first",      linkPreview: true,      streaming: "partial",    },  },}
+```
+
+- Ключевые моменты
+    
+    - `botToken`: токен от BotFather.
+        
+    - `dmPolicy`:
+        
+        - `pairing` — мягкий вход.
+            
+        - `allowlist` — самый предсказуемый доступ.
+            
+        - `open` — все.
+            
+        - `disabled` — личка выключена.
+            
+    - `requireMention: true` в группах — хорошая защита от «болтливого» бота.
+
+### Multi‑agent: несколько агентов и привязка к каналам, чатам, топикам
+
+**Правильная модель:** один Gateway держит несколько изолированных агентов. У каждого может быть свой workspace, инструкции, auth‑профили и маршрутизация входящих сообщений.
+
+#### 1) Добавить нового агента
+
+```
+openclaw agents add research
+```
+
+Пример руками:
+
+```
+{  agents: {    list: [      {        id: "main",        default: true,        workspace: "~/.openclaw/workspace",        agentDir: "~/.openclaw/agents/main/agent",      },      {        id: "research",        workspace: "~/.openclaw/workspace-research",        agentDir: "~/.openclaw/agents/research/agent",      },    ],  },}
+```
+
+Один workspace на двух агентов — почти всегда плохая идея. Разделяй `workspace` и `agentDir`.
+
+#### 2) Привязать агента к отдельному Telegram‑аккаунту (два бота)
+
+```
+{  channels: {    telegram: {      accounts: {        default: {          botToken: "123456:MAIN_TOKEN",          dmPolicy: "allowlist",          allowFrom: ["tg:123456789"],        },        researchbot: {          botToken: "654321:RESEARCH_TOKEN",          dmPolicy: "allowlist",          allowFrom: ["tg:123456789"],        },      },    },  },  bindings: [    { agentId: "main", match: { channel: "telegram", accountId: "default" } },    { agentId: "research", match: { channel: "telegram", accountId: "researchbot" } },  ],}
+```
+
+#### 3) Привязать агента к конкретному чату
+
+```
+{  bindings: [    {      agentId: "research",      match: {        channel: "telegram",        peer: { kind: "group", id: "-1001234567890" },      },    },  ],}
+```
+
+#### 4) Привязать агента к конкретному Telegram topic
+
+```
+{  channels: {    telegram: {      groups: {        "-1001234567890": {          requireMention: true,          topics: {            "3": { agentId: "dev", requireMention: false },            "5": { agentId: "ops", requireMention: false },          },        },      },    },  },}
+```
+
+#### 5) Отдельный heartbeat для каждого агента
+
+```
+{  agents: {    defaults: {      heartbeat: {        every: "0m",      },    },    list: [      {        id: "main",        default: true,        workspace: "~/.openclaw/workspace-main",      },      {        id: "ops",        workspace: "~/.openclaw/workspace-ops",        heartbeat: {          every: "1h",          target: "telegram",          to: "123456789",          lightContext: true,        },      },    ],  },}
+```
+
+---
+
+### Итог
+
+OpenClaw спроектирован так, что можно начать с одного агента в Telegram и постепенно наращивать сложность — не переписывая конфиг с нуля, а добавляя секции по мере необходимости. Главное — не пытаться включить всё сразу, действуйте шаг за шагом, смотрите к чему приводят перемены, все ли вас устраивает.
+
+Gateway, одна модель, один канал, чистый workspace — этого достаточно, чтобы агент заработал. Heartbeat, bindings, multi‑agent — это следующий шаг, когда понятно, зачем они нужны именно тебе.
+
+Если что‑то пошло не так — `openclaw doctor` и `openclaw status` почти всегда подскажут, где копать.
 
 
 
 ### Architecture
-User --------------------------------------------> OpenClaw -------------------------------------------> Ollama --------------------------------------> LLM Model
+User --------------------------------------------> OpenClaw -------------------------------------------> LLM Provider (Ollama, OpenAI, Gemini) --------------------------------------> LLM Model
 (Sends Request | Initiate Prompt)  |  (Agent / Executor | Routes & Executes) | (LLM Runtime | Loads & Manages) | (The Brain | Reasons & Decides)
 
 LLM -> Brain

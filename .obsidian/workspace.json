@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/OpenClaw - Overview.md",
+                "file": "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenClaw - Overview"
+              "title": "Implementation - Node.js"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 412.5
   },
   "right": {
     "id": "729b27f3c9b0fadc",
@@ -183,35 +183,37 @@
       "bases:Створити нову базу": false
     }
   },
-  "active": "a03ac1343684adf6",
+  "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Inbox/OpenClaw - Installation.md",
+    "Temlates/Knowledge template.md",
+    "Inbox/Implementation - Rust.md",
+    "Inbox/OAuth Implementation - Rust.md",
+    "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth Implementation (MOC).md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth - Architecture Patterns.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth - Overview Implementation.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth - Production Checklist.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Implementation/OAuth Implementation - Node.js.md",
+    "Knowledge/Authentication & Authorization/Implementation",
+    "Knowledge/Authentication & Authorization/OIDC.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Use Cases.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Implementation.md",
+    "Inbox/Microservices Architecture.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts",
     "Inbox/OpenClaw - Overview.md",
+    "Inbox/OpenClaw - Installation.md",
     "Knowledge/AI/Computer Vision/Model Clasification.md",
     "Knowledge/AI/OpenClaw",
     "Knowledge/AI/Computer Vision/Resources.md",
     "Knowledge/AI/7 Levels of AI User.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Data & Credentials.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - History.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Use Cases.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Authorization Code Flow.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Attacks.md",
     "Knowledge/Security/Attacks/Authentication Attacks/Authorization Code Interception.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Implementation.md",
     "Knowledge/Security/Attacks/Authentication Attacks/Missing Token Validation.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Scope Escalation.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Authorization Code Reuse.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/PKCE Bypass.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Open Redirect.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/XSS (Cross-Site Scripting).md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Session Hijacking.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Phishing.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Credential Stuffing.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Brute Force.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Overview.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Misconfiguration.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Token Leakage.md",
     "Knowledge/Security/Attacks/Authentication Attacks",
     "Knowledge/Security/Attacks",
     "Knowledge/Security",
@@ -219,8 +221,6 @@
     "Knowledge/Authentication & Authorization/OAuth",
     "Projects/Rust",
     "Temlates",
-    "Projects",
-    "Knowledge",
-    "Inbox"
+    "Projects"
   ]
 }

@@ -1,5 +1,9 @@
 #auth
 # Concept
+
+## Checklist
+- [[OAuth - Production Checklist]]
+- [[OAuth - Architecture Patterns]]
 ## 📌 Основы
 - [[OAuth - Overview]]
 ## История
@@ -24,7 +28,9 @@
 - [[JWT]]
 ---
 # 💡 Практика
-- [[OAuth - Implementation]]
+- [[Implementation - Rust]]
+- [[Implementation - Node.js]]
+- [[OAuth - Use Cases]]
 ---
 # Resources
 - [[OAuth - Resources]]
