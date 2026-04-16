@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
+                "file": "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Security Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Implementation - Node.js"
+              "title": "OAuth - Security Overview"
             }
           }
         ]
@@ -185,10 +185,14 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Security Overview.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Threat Modeling.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security",
+    "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
     "Temlates/Knowledge template.md",
     "Inbox/Implementation - Rust.md",
     "Inbox/OAuth Implementation - Rust.md",
-    "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth Implementation (MOC).md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth - Architecture Patterns.md",
@@ -210,17 +214,13 @@
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Data & Credentials.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - History.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Authorization Code Flow.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Attacks.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Authorization Code Interception.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Missing Token Validation.md",
     "Knowledge/Security/Attacks/Authentication Attacks",
     "Knowledge/Security/Attacks",
     "Knowledge/Security",
     "Без назви.canvas",
     "Knowledge/Authentication & Authorization/OAuth",
     "Projects/Rust",
-    "Temlates",
-    "Projects"
+    "Temlates"
   ]
 }
