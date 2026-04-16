@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Authentication & Authorization/OAuth/OAuth - Data & Credentials.md",
+                "file": "Inbox/OpenClaw - Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth - Data & Credentials"
+              "title": "OpenClaw - Overview"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200
   },
   "right": {
     "id": "729b27f3c9b0fadc",
@@ -185,10 +185,16 @@
   },
   "active": "a03ac1343684adf6",
   "lastOpenFiles": [
+    "Inbox/OpenClaw - Installation.md",
+    "Inbox/OpenClaw - Overview.md",
+    "Knowledge/AI/Computer Vision/Model Clasification.md",
+    "Knowledge/AI/OpenClaw",
+    "Knowledge/AI/Computer Vision/Resources.md",
+    "Knowledge/AI/7 Levels of AI User.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Data & Credentials.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - History.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Use Cases.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Authorization Code Flow.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Data & Credentials.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Attacks.md",
     "Knowledge/Security/Attacks/Authentication Attacks/Authorization Code Interception.md",
@@ -206,21 +212,15 @@
     "Knowledge/Security/Attacks/Authentication Attacks/Overview.md",
     "Knowledge/Security/Attacks/Authentication Attacks/Misconfiguration.md",
     "Knowledge/Security/Attacks/Authentication Attacks/Token Leakage.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/CSRF (Cross-Site Request Forgery).md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Overview.md",
-    "Knowledge/Security/Attacks/Redirect Attacks.md",
     "Knowledge/Security/Attacks/Authentication Attacks",
     "Knowledge/Security/Attacks",
     "Knowledge/Security",
-    "Temlates/Knowledge template.md",
     "Без назви.canvas",
     "Knowledge/Authentication & Authorization/OAuth",
     "Projects/Rust",
     "Temlates",
     "Projects",
     "Knowledge",
-    "Inbox",
-    "Knowledge/AI/Computer Vision"
+    "Inbox"
   ]
 }
