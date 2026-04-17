@@ -452,3 +452,6 @@ OpenClaw -> Hands (Using Brain)
 
 - [Тонкая настройка OpenClaw. Как дойти от установки до multi-agent за один вечер?](https://habr.com/ru/articles/1009862/)
 
+
+# Связи
+- [[OpenClaw - Installation]]

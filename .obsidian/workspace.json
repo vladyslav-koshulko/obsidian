@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Security Overview.md",
+                "file": "Inbox/OpenClaw - Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth - Security Overview"
+              "title": "OpenClaw - Overview"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
+    "Inbox/OpenClaw - Installation.md",
+    "Inbox/OpenClaw - Overview.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Security Overview.md",
+    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Threat Modeling.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Security",
     "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
@@ -205,8 +207,6 @@
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Implementation.md",
     "Inbox/Microservices Architecture.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts",
-    "Inbox/OpenClaw - Overview.md",
-    "Inbox/OpenClaw - Installation.md",
     "Knowledge/AI/Computer Vision/Model Clasification.md",
     "Knowledge/AI/OpenClaw",
     "Knowledge/AI/Computer Vision/Resources.md",
