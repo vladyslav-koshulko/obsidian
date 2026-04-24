@@ -6,4 +6,8 @@
 
 # Orchestration, containerization and chart 
 - [Helm docs](https://helm.sh/docs/intro/install/)
+
+
+# Frontend
+- [Elm Syntax](https://elm-lang.org/docs/syntax)
 - 

@@ -1,0 +1,6 @@
+- [Official page](https://elm-lang.org/)
+- [Guide](https://guide.elm-lang.org/)
+- [Playground](https://elm-lang.org/try)
+- [Syntax](https://elm-lang.org/docs/syntax)
+- [# Elm – забава или серьёзный инструмент?](https://habr.com/ru/articles/696718/)
+- 

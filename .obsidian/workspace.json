@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Security/Tools/TheHarvester.md",
+                "file": "Knowledge/AI/Computer Vision/Computer Vision (MOC).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TheHarvester"
+              "title": "Computer Vision (MOC)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 352.5
   },
   "right": {
     "id": "729b27f3c9b0fadc",
@@ -185,42 +185,42 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
+    "Knowledge/AI/Computer Vision/Computer Vision (MOC).md",
+    "Knowledge/Rust/Rust (MOC).md",
+    "Knowledge/Rust/Rust - Overview.md",
+    "Knowledge/Rust/Advantages.md",
+    "Knowledge/Programming Concepts/Foreign Function interface (FFI).md",
+    "Knowledge/Programming Concepts/Language Server Protocol (LSP).md",
     "Inbox/Resources for learning.md",
+    "Inbox/SPA - Single Page Applications.md",
+    "Knowledge/Frontend/Elm/Elm (MOC).md",
+    "Knowledge/Programming Concepts/Functional Programming/Factional Programming (MOC).md",
+    "Inbox/Elm - Syntax.md",
+    "Knowledge/Programming Concepts/Functional Programming/Functional Programming - Operators.md",
+    "Knowledge/Programming Concepts/Functional Programming/Functional Programming - Overview.md",
+    "Knowledge/Programming Concepts/Functional Programming",
+    "Knowledge/Frontend/Elm/Elm - Resources.md",
+    "Knowledge/Frontend/Elm/Elm - The Elm Architecture.md",
+    "Inbox/Elm - Components.md",
+    "Knowledge/Frontend/Elm/Elm - Installation.md",
+    "Knowledge/Frontend/Elm/Elm - Overview.md",
+    "Knowledge/Programming Concepts",
     "Knowledge/Security/Tools/TheHarvester.md",
+    "Knowledge/Frontend/React",
+    "Knowledge/Frontend/TypeScript",
+    "Knowledge/Frontend/Elm",
+    "Knowledge/Frontend",
     "Knowledge/Security/Tools",
     "Inbox/Technologies list.md",
     "Inbox/Implementation - Rust.md",
     "Inbox/Microservices Architecture.md",
     "Inbox/OpenClaw - Overview.md",
     "Inbox/OpenClaw - Installation.md",
-    "Knowledge/Rust/Terminology/Language Server Protocol (LSP).md",
-    "Knowledge/Rust/Terminology/Foreign Function interface (FFI).md",
-    "Knowledge/Rust/Advantages.md",
-    "Knowledge/Rust/About.md",
     "Knowledge/Rust/Syntax/Macroses.md",
     "Knowledge/Rust/Syntax/Functions.md",
-    "Knowledge/Rust/Syntax/Blocks & Scopes.md",
-    "Knowledge/Rust/Syntax/Code flow.md",
-    "Knowledge/Rust/Syntax/Data types.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Security Overview.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security/OAuth - Threat Modeling.md",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Security",
-    "Knowledge/Authentication & Authorization/Implementation/Implementation - Node.js.md",
-    "Temlates/Knowledge template.md",
-    "Inbox/OAuth Implementation - Rust.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth Implementation (MOC).md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth - Architecture Patterns.md",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts/OAuth - Overview Implementation.md",
     "Knowledge/Authentication & Authorization/Implementation",
     "Knowledge/Authentication & Authorization/OAuth/OAuth - Concepts",
-    "Knowledge/AI/OpenClaw",
-    "Knowledge/Security/Attacks/Authentication Attacks",
-    "Knowledge/Security/Attacks",
-    "Knowledge/Security",
-    "Без назви.canvas",
-    "Knowledge/Authentication & Authorization/OAuth",
-    "Projects/Rust"
+    "Без назви.canvas"
   ]
 }
