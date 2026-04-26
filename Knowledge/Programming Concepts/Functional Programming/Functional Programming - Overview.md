@@ -140,3 +140,4 @@ result = list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, numbers
 # Связи
 - [[Elm - Overview]]
 - [[Rust - Overview]]
+- [[Functional Programming - Operators]]
