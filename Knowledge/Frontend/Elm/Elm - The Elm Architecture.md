@@ -32,3 +32,6 @@
 # Связи
 - [[Elm - Installation]]
 - [[Elm - Overview]]
+- [[Elm - Syntax]]
+- [[Elm - Operators]]
+- [[Elm - Resources]]

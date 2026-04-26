@@ -1,3 +1,4 @@
+#elm #resources
 - [Official page](https://elm-lang.org/)
 - [Guide](https://guide.elm-lang.org/)
 - [Playground](https://elm-lang.org/try)
