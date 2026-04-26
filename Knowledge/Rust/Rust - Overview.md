@@ -1,3 +1,4 @@
+#rust #overview 
 Rust - static compile language
 
 Architecture and platform support:
@@ -31,5 +32,5 @@ Rust uses for wide device specter:
 - Чудова підтримка протоколу мовного сервера ([[Language Server Protocol (LSP)]])
 - 
 # Связи
-- [[Implementation - Rust]]
+- [[Inbox/Implementation - Rust]]
 - [[Rust]]

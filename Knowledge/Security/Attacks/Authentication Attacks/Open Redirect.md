@@ -1,3 +1,4 @@
+#security #attacks #open-redirect #redirect
 # 🚨 Open Redirect Attack
 
 ## 📌 Суть

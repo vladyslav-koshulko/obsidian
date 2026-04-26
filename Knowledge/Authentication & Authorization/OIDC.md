@@ -1,3 +1,5 @@
+#auth #oidc
+
 **OIDC - OpenID Connect**
 ### Что добавляет
 

@@ -1,3 +1,4 @@
+#auth #implementation #rust #prodaction
 # Полное руководство по внедрению Production Authentication  
   
 ## Для кого это руководство  
@@ -922,3 +923,9 @@ Cookie::build("access_token", token)
 ---  
   
 **Запомни**: Безопасность - это процесс, а не пункт в чек-листе. Регулярно аудируй код и следи за новыми уязвимостями.
+
+# Связи
+- [[Rust - Overview]]
+- [[OAuth - Overview]]
+- [[JWT]]
+- [[OIDC]]

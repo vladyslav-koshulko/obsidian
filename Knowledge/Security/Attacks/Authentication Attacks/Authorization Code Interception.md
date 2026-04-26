@@ -1,3 +1,4 @@
+#security #attacks #interception
 # 🚨 Authorization Code Interception
 
 ## 📌 Суть
@@ -72,4 +73,4 @@ const params = {
 - [[PKCE]]
 - [[OAuth - Data & Credentials]]
 - [[OAuth - Overview|OAuth - Overview]]
-- [[OAuth - Security]]
+- [[OAuth - Security Overview]]

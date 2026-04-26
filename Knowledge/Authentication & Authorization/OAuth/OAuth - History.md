@@ -1,4 +1,4 @@
-#auth #history
+#auth #oauth #history
 ## 🧠 История (кратко)
 
 ### OAuth 1.0

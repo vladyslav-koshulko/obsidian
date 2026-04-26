@@ -1,4 +1,4 @@
-#auth
+#auth #oauth  #overview 
 
 # General
 ## 🧠 Суть (TL;DR)

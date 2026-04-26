@@ -1,3 +1,4 @@
+#rust #moc
 # Syntax
 - [[Data types]]
 - [[Code flow]]

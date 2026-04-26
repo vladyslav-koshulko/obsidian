@@ -1,3 +1,4 @@
+#auth #jwt
 JWT - (JSON Web Token)
 ## Structure
 ```

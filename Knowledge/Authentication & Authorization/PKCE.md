@@ -1,3 +1,4 @@
+#auth #pkce
 PKCE - Proof Key for Code Exchange
 
 ---
@@ -20,3 +21,7 @@ PKCE (Proof Key for Code Exchange, вимовляється "піксі") — ц
 - **Безпека:** Замінює необхідність використання статики (client secret) у ненадійних середовищах.
 
 PKCE офіційно визначено в [RFC 7636](https://www.rfc-editor.org/rfc/rfc7636.html).
+
+# Связи
+- [[OAuth - Overview]]
+- [[SPA - Single Page Applications]]

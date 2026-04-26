@@ -1,4 +1,4 @@
-#auth
+#auth #oauth  #moc
 # Concept
 
 ## Checklist
@@ -28,7 +28,7 @@
 - [[JWT]]
 ---
 # 💡 Практика
-- [[Implementation - Rust]]
+- [[Inbox/Implementation - Rust]]
 - [[Implementation - Node.js]]
 - [[OAuth - Use Cases]]
 ---

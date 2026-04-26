@@ -1,3 +1,4 @@
+#auth #oauth #architecrute #patterns
 # 🏗 OAuth Architecture Patterns (Microservices & Production)
 
 ## 🧠 Суть

@@ -1,3 +1,4 @@
+#security #attacks #auth-code-reuse
 # 🚨 Authorization Code Reuse
 
 ## 📌 Суть
@@ -24,4 +25,4 @@
 - [[OAuth - Overview|OAuth - Overview]]
 - [[OAuth - Data & Credentials]]
 - [[OAuth - Attacks]]
-- [[OAuth - Security]]
+- [[OAuth - Security Overview]]

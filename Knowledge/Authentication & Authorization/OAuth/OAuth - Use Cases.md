@@ -1,4 +1,4 @@
-#auth #cases
+#auth #oauth  #cases
 ## Login через Google
   
 → [[OAuth - Authorization Code Flow]]  

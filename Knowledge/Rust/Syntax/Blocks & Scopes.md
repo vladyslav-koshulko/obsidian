@@ -1,3 +1,4 @@
+#rust #syntax #scopes
 ## [Блоки](https://google.github.io/comprehensive-rust/uk/control-flow-basics/blocks-and-scopes.html#%D0%91%D0%BB%D0%BE%D0%BA%D0%B8)
 
 Блок у Rust містить послідовність виразів, взятих у фігурні дужки `{}`. Кожен блок має значення і тип, які відповідають значенню і типу останнього виразу в блоці:

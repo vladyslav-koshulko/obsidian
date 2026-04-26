@@ -1,3 +1,4 @@
+#security #attacks #session-hijacking #sessions
 ### 📌 Что это
 
 Кража сессии

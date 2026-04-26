@@ -1,3 +1,5 @@
+#rust #syntax #functions
+
 ```
 fn gcd(a: u32, b: u32) -> u32 {
     if b > 0 {

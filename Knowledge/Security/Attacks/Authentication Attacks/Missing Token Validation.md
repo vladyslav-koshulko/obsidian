@@ -1,3 +1,4 @@
+#security #attacks #missing-token-validation #validation
 # 🚨 Missing Token Validation
 
 ## 📌 Суть

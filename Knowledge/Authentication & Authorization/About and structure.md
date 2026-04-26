@@ -1,3 +1,4 @@
+#auth #technologies #protocols #concepts #standarts
 # Полный список технологий, протоколов и концепций аутентификации и авторизации:
 
 ---
@@ -184,7 +185,7 @@ Session = удобство использования
 - [[OIDC]]
 - [[PKCE]]
 - SSO
-- [[Production Authentication]]
+- [[Knowledge/Authentication & Authorization/Implementation/Implementation - Rust]]
 - [[JWKS]]
 - SCRF
 - CORS

@@ -1,3 +1,4 @@
+#auth #jwks
 **JWKS - JSON Web Key Set**
 
 ## 📌 Что это
@@ -50,3 +51,8 @@ let decoding_key = DecodingKey::from_rsa_components(n, e);
   
 decode(token, decoding_key, validation);
 ```
+
+
+
+# Связи
+- [[JWT]]

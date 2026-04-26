@@ -1,3 +1,4 @@
+#security #attacks #csrf
 # General
 ### 📌 Что это
 
@@ -76,6 +77,6 @@ state связывает request ↔ response
 - [[OAuth - Overview|OAuth - Overview]]
 - [[OAuth - Data & Credentials]]
 - [[OAuth - Attacks]]
-- [[OAuth - Security]]
+- [[OAuth - Security Overview]]
 - [[OAuth - Authorization Code Flow]]
 

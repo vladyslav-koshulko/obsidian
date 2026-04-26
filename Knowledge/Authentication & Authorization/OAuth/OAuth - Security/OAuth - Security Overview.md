@@ -1,4 +1,4 @@
-#auth #security 
+#auth #oauth  #security #overview 
 ## 🔐 Безопасность (критично)
 
 - `state` → защита от [[CSRF (Cross-Site Request Forgery)]]  
