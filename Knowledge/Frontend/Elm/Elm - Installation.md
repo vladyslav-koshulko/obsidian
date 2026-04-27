@@ -147,3 +147,8 @@ This adds these dependencies into your `elm.json` file, making these packages 
 # Связи
 - [[Elm - Overview]]
 - [[Elm - The Elm Architecture]]
+- [[Elm - Resources]]
+- [[Elm - Syntax]]
+- [[Elm - Operators]]
+- [[Elm Examples (MOC)]]
+- 

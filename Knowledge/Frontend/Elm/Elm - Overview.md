@@ -27,3 +27,7 @@ Elm подходит для создания сложных [[SPA - Single Page 
 - [[Functional Programming - Overview]]
 - [[Elm - Installation]]
 - [[Elm - The Elm Architecture]]
+- [[Elm Examples (MOC)]]
+- [[Elm - Resources]]
+- [[Elm - Syntax]]
+- [[Elm - Operators]]
