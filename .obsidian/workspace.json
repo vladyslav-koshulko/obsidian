@@ -11,10 +11,14 @@
             "id": "0c5f6ea199428be2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Elm - Components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Elm - Components"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловий менеджер"
+              "title": "Files"
             }
           },
           {
@@ -170,54 +174,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
-      "bases:Створити нову базу": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Knowledge/Frontend/Elm/Elm (MOC).md",
-    "Knowledge/Frontend/Elm/Elm - The Elm Architecture.md",
-    "Knowledge/Frontend/Elm/Elm - Installation.md",
-    "Knowledge/Frontend/Elm/Elm - Overview.md",
-    "Knowledge/Frontend/Elm/Examples/Elm Examples (MOC).md",
-    "Knowledge/Frontend/Elm/Examples/Elm Example - Counter.md",
-    "Knowledge/Frontend/Elm/Elm - Syntax.md",
-    "Knowledge/Programming Concepts/The Elm Architecture (TEA).md",
+    "Inbox/Microservices Architecture.md",
+    "Inbox/OpenClaw - Overview.md",
+    "Inbox/Resources for learning.md",
+    "Inbox/SPA - Single Page Applications.md",
+    "Inbox/In Progress.md",
+    "Inbox/Technologies list.md",
+    "Knowledge/Linux/Tools/Network/File Transfer & Web Tools/RSYNC.md",
+    "Knowledge/Linux/Tools/Network/File Transfer & Web Tools/WGET.md",
+    "Knowledge/Linux/Tools/Network/File Transfer & Web Tools/CURL.md",
+    "Knowledge/Linux/Tools/Network/Untitled.md",
+    "Knowledge/Linux/Tools/Network/File Transfer & Web Tools",
+    "Knowledge/Linux/Tools/Network/SOCAT.md",
+    "Knowledge/Linux/Tools/Network/WHOIS.md",
+    "Knowledge/Linux/Tools/Network/IPTABLES.md",
+    "Knowledge/Linux/Tools/Network/DNS Lookup/HOST.md",
+    "Knowledge/Linux/Tools/Network/DNS Lookup/NSLOOKUP.md",
+    "Knowledge/Linux/Tools/Network/DNS Lookup/DIG.md",
+    "Knowledge/Linux/Tools/Network/TELNET.md",
+    "Knowledge/Linux/Tools/Network/DNS Lookup",
+    "Knowledge/Linux/Tools/Network/TRACEROUTE.md",
+    "Knowledge/Linux/Tools/Network/Configuration/ETHTOOL.md",
+    "Knowledge/Linux/Tools/Network/Configuration/ROUTE.md",
+    "Knowledge/Linux/Tools/Network/Configuration/IWCONFIG.md",
+    "Knowledge/Linux/Tools/Network/Sockets/NETSTAT.md",
+    "Knowledge/Linux/Tools/Network/Scanning",
+    "Knowledge/Linux/Tools/Network/Pocket Capture",
+    "Knowledge/Linux/Tools/Network/Pocket Capture/WIRESHARK.md",
+    "Knowledge/Linux/Tools/Network/Sockets",
+    "Knowledge/Linux/Tools/Network/Configuration",
+    "Knowledge/Linux/Tools/Network/Scanning/NMAP.md",
+    "Knowledge/Linux/Tools/Network/Pocket Capture/TCPDUMP.md",
+    "Knowledge/Linux/Tools/Network/Sockets/SS.md",
+    "Knowledge/Linux/Tools/Network",
+    "Knowledge/Linux/Tools",
+    "Knowledge/Linux",
     "Knowledge/Frontend/Elm/Examples",
     "Pasted image 20260426160759.png",
-    "Knowledge/Programming Concepts/Reactive Programming.md",
-    "Knowledge/AI/OpenClaw/OpenClaw - Installation.md",
-    "Inbox/OpenClaw - Overview.md",
-    "Inbox/SPA - Single Page Applications.md",
-    "Inbox/Resources for learning.md",
-    "Inbox/Technologies list.md",
-    "Inbox/Microservices Architecture.md",
-    "Inbox/Implementation - Rust.md",
-    "Temlates/Knowledge template.md",
-    "Knowledge/Security/Tools/TheHarvester.md",
-    "Knowledge/Security/Attacks/Redirect Attacks.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Missing Token Validation.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Scope Escalation.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Authorization Code Reuse.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/PKCE Bypass.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Open Redirect.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/Authorization Code Interception.md",
-    "Knowledge/Security/Attacks/Authentication Attacks/XSS (Cross-Site Scripting).md",
-    "Knowledge/Programming Concepts/Functional Programming",
-    "Knowledge/Programming Concepts",
-    "Knowledge/Frontend/React",
-    "Knowledge/Frontend/TypeScript",
-    "Knowledge/Frontend/Elm",
-    "Knowledge/Frontend",
-    "Knowledge/Security/Tools",
-    "Knowledge/Authentication & Authorization/OAuth/OAuth - Security",
-    "Knowledge/Authentication & Authorization/Implementation",
     "Без назви.canvas"
   ]
 }
