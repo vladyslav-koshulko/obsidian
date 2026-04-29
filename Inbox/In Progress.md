@@ -24,3 +24,32 @@
 - [[IFCONFIG]]
 - [[IP]]
 - [[NMAP]]
+
+# Security tools
+- [[TheHarvester]]
+
+# Security attacks
+- [[Authorization Code Reuse]]
+- [[Authorization Code Interception]]
+- [[Brute Force]]
+- [[CSRF (Cross-Site Request Forgery)]]
+- [[Credential Stuffing]]
+- [[Misconfiguration]]
+- [[Missing Token Validation]]
+- [[Open Redirect]]
+- [[PKCE Bypass]]
+- [[Phishing]]
+- [[Scope Escalation]]
+- [[Session Hijacking]]
+- [[Token Leakage]]
+- [[XSS (Cross-Site Scripting)]]
+- [[Redirect Attacks]]
+
+# Technologies
+- [[Technologies list]]
+
+# Other
+- [[SPA - Single Page Applications]]
+- [[Microservices Architecture]]
+- [[Resources for learning]]
+- [[Elm - Components]]

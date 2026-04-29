@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.backlinks
+      - file.ctime
+      - file.folder
+      - file.tags
+      - file.size
+    sort:
+      - property: file.size
+        direction: DESC
+      - property: file.folder
+        direction: ASC

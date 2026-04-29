@@ -31,6 +31,6 @@
 # 🔗 Связи  
   
 - [[OAuth - Overview]]  
-- [[OAuth - Security]]  
+- [[OAuth - Security Overview]]  
 - [[OAuth - Data & Credentials]]
 - [[OAuth - Attacks]]
