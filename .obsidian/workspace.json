@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Security/Attacks/Authentication Attacks/Authentication Attacks (MOC).md",
+                "file": "Knowledge/Programming Concepts/Template for introduction to new Programming Language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Authentication Attacks (MOC)"
+              "title": "Template for introduction to new Programming Language"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловий менеджер"
+              "title": "Files"
             }
           },
           {
@@ -174,54 +174,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Відкрити провідник файлів": false,
-      "graph:Граф": false,
-      "canvas:Створити нове полотно": false,
-      "daily-notes:Сьогоднішня нотатка": false,
-      "templates:Вставити шаблон": false,
-      "command-palette:Відкрити меню команд": false,
-      "bases:Створити нову базу": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Knowledge/Authentication & Authorization/OAuth/OAuth (MOC).md",
-    "Base.base",
-    "Knowledge/AI/Agents/OpenClaw/OpenClaw - Installation.md",
-    "Knowledge/AI/Agents/Agentic Systems.md",
-    "Knowledge/AI/Agents/OpenClaw",
-    "Knowledge/AI/Agents/Agentic Systems.md~",
-    "Knowledge/AI/Agents",
+    "Knowledge/Programming Concepts/Template for introduction to new Programming Language.md",
     "Media/Pasted image 20260426160759.png",
     "Media",
-    "Knowledge/Security/Attacks/Authentication Attacks/Authentication Attacks (MOC).md~",
     "Knowledge/Security/Attacks/Authentication Attacks/Authentication Attacks (MOC).md",
-    "Knowledge/Linux/Utils/Network/Sockets/SS.md",
+    "Knowledge/AI/Agents/OpenClaw/OpenClaw - Installation.md",
+    "Knowledge/AI/Agents/OpenClaw",
+    "Knowledge/AI/Agents/Agentic Systems.md",
+    "Knowledge/AI/Agents",
+    "Knowledge/Linux/Utils/Network/SOCAT.md",
+    "Knowledge/Linux/Utils/Network/WHOIS.md",
+    "Knowledge/Linux/Utils/Network/IPTABLES.md",
+    "Knowledge/Linux/Utils/Network/TELNET.md",
+    "Knowledge/Linux/Utils/Network/TRACEROUTE.md",
+    "Knowledge/Linux/Utils/Network/PING.md",
     "Knowledge/Linux/Utils/Network/Sockets/NETSTAT.md",
+    "Knowledge/Linux/Utils/Network/Sockets/SS.md",
     "Knowledge/Linux/Utils/Network/Scanning/NMAP.md",
     "Knowledge/Linux/Utils/Network/Pocket Capture/WIRESHARK.md",
     "Knowledge/Linux/Utils/Network/Pocket Capture/TCPDUMP.md",
-    "Knowledge/Linux/Utils/Network/File Transfer & Web Tools/WGET.md",
     "Knowledge/Linux/Utils/Network/File Transfer & Web Tools/RSYNC.md",
     "Knowledge/Linux/Utils/Network/File Transfer & Web Tools/CURL.md",
-    "Knowledge/Linux/Utils/Network/DNS Lookup/NSLOOKUP.md",
+    "Knowledge/Linux/Utils/Network/File Transfer & Web Tools/WGET.md",
     "Knowledge/Linux/Utils/Network/DNS Lookup/HOST.md",
+    "Knowledge/Linux/Utils/Network/DNS Lookup/NSLOOKUP.md",
     "Knowledge/Linux/Utils/Network/DNS Lookup/DIG.md",
+    "Knowledge/Linux/Utils/Network/Configuration/ETHTOOL.md",
     "Knowledge/Linux/Utils/Network/Configuration/ROUTE.md",
     "Knowledge/Linux/Utils/Network/Configuration/IWCONFIG.md",
-    "Knowledge/Linux/Utils/Network/Configuration/IP.md",
     "Knowledge/Linux/Utils/Network/Configuration/IFCONFIG.md",
-    "Knowledge/Linux/Utils/Network/Configuration/ETHTOOL.md",
-    "Knowledge/Linux/Utils/Network/WHOIS.md",
-    "Knowledge/Linux/Utils/Network/TRACEROUTE.md",
-    "Knowledge/Linux/Utils/Network/TELNET.md",
-    "Knowledge/Linux/Utils/Network/Sockets",
-    "Knowledge/Linux/Utils/Network/Scanning",
-    "Knowledge/Linux/Utils/Network/SOCAT.md",
-    "Knowledge/Linux/Utils/Network/Pocket Capture",
-    "Knowledge/Linux/Utils/Network/PING.md",
-    "Knowledge/Linux/Utils/Network/IPTABLES.md",
+    "Knowledge/Linux/Utils/Network/Configuration/IP.md",
+    "Base.base",
+    "Untitled.canvas",
     "Knowledge/Linux/Utils/Network/File Transfer & Web Tools",
+    "Knowledge/Linux/Utils/Network/DNS Lookup",
+    "Knowledge/Linux/Utils/Network/Scanning",
+    "Knowledge/Linux/Utils/Network/Pocket Capture",
+    "Knowledge/Linux/Utils/Network/Sockets",
+    "Knowledge/Linux/Utils/Network/Configuration",
     "Pasted image 20260426160759.png",
     "Без назви.canvas"
   ]
