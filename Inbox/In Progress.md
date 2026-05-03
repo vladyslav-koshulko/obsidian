@@ -1,3 +1,18 @@
+**Template for to be Done:**
+
+---
+# Название
+Суть
+# Детальное описание
+описание как работает
+# Когда исопльзовать и в каких случаях
+# Примеры использования
+# Ресурсы
+# Связи
+
+
+---
+
 # Linux / Tools / Network
 - [[IFCONFIG]]
 - [[IP]]
@@ -47,6 +62,13 @@
 
 # Technologies
 - [[Technologies list]]
+
+
+# Rust build tools
+- [[rustup]]
+- [[rustc]]
+- [[Cargo]]
+- 
 
 # Other
 - [[SPA - Single Page Applications]]

@@ -8,3 +8,14 @@
 
 # Overview
 - [[Rust - Overview]]
+
+# Tools
+
+## Build & Tools
+- [[Cargo]]
+- [[rustc]]
+- [[rustup]]
+
+## Code Quality & Style
+- [[Clippy]]
+- [[rustfmt]]
