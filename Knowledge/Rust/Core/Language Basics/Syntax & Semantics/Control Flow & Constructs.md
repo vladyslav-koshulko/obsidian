@@ -1,9 +1,10 @@
-#rust #syntax #code-flow
+#rust #syntax #code-flow #if-statement #cycles #while #for #loop #labels
 ### If statments
 
 ```
 if x == 0 {...} else if x < 100 {...} else {...}
 ```
+
 ```
 if x == 0 {
 	...
@@ -13,6 +14,7 @@ if x == 0 {
 	...
 }
 ```
+
 ```
 let size = if x < 20 {...} else {...};
 ```
@@ -33,11 +35,15 @@ while x > 10 {
 ```
 for x in 1..5 {...} # from 1 to 4 included
 for x in 1..=5 {...} # from 1 to 5 included
-for x in [1,2,3,4,5] # from 1 to 5 included
+for x in [1,2,3,4,5] {...} # from 1 to 5 included
 ```
 
 Під капотом циклів `for` використовується концепція, яка називається “ітератори”, для обробки ітерацій над різними типами діапазонів/колекцій.
 Зверніть увагу, що перший цикл `for` виконує ітерацію тільки до `4`. Cинтаксис `1..=5` для включеного діапазону.
+
+```
+for x in (1..4).rev() {...} # .rev - reverse order
+```
 
 #### loop
 Оператор [`loop`](https://doc.rust-lang.org/std/keyword.loop.html) просто повторюється до нескінченності, поки не трапиться `break`.
@@ -52,6 +58,20 @@ loop {
 ```
 The `loop` statement works like a `while true` loop. Use it for things like servers which will serve connections forever.
 
+**Возврат значений из цикла**
+```
+fn main() {
+	let mut counter = 0;
+	
+	let result = loop {
+		counter += 1;
+		
+		if counter == 10 {
+			break counter * 2;
+		}
+	}
+}
+```
 #### Мітки
 І `continue`, і `break` можуть додатково приймати аргумент мітки, який використовується для виходу з вкладених циклів:
 ```
@@ -69,3 +89,9 @@ The `loop` statement works like a `while true` loop. Use it for things like 
 	println!("Цей рядок пропускається"); 
 }
 ```
+
+# Next
+- [[Functions & Method Syntax]]
+# Связи
+- [[Variables]]
+- [[Data types]]
