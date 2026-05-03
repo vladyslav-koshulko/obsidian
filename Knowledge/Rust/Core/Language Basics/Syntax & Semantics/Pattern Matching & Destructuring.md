@@ -131,6 +131,7 @@ fn main() {
 
 # Next
 - [[Enums]]
+- [[Structs]]
 
 # Связи
 - [[Variables]]

@@ -11,10 +11,14 @@
             "id": "0c5f6ea199428be2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Data types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data types"
             }
           },
           {
@@ -195,16 +199,19 @@
   },
   "active": "0c5f6ea199428be2",
   "lastOpenFiles": [
-    "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Pattern Matching & Destructuring.md",
-    "Knowledge/Rust/Core/Language Basics/Constructs/Impl Blocks.md",
+    "Knowledge/Rust/Core/Language Basics/Data Structures/Vector.md",
+    "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Data types.md",
+    "Knowledge/Rust/Concepts/Desctructuring.md",
+    "Knowledge/Rust/Concepts",
     "Knowledge/Rust/Core/Language Basics/Constructs/Structs.md",
-    "Knowledge/Rust/Core/Language Basics/Constructs/Traits.md",
+    "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Pattern Matching & Destructuring.md",
     "Knowledge/Rust/Core/Language Basics/Constructs/Enums.md",
+    "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Variables.md",
+    "Knowledge/Rust/Core/Language Basics/Constructs/Impl Blocks.md",
+    "Knowledge/Rust/Core/Language Basics/Constructs/Traits.md",
     "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Blocks & Scopes.md",
     "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Functions & Method Syntax.md",
     "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Control Flow & Constructs.md",
-    "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Variables.md",
-    "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Data types.md",
     "Knowledge/Rust/Core/Language Basics/Syntax & Semantics/Constants.md",
     "Knowledge/Rust/Core/Language Basics/Code flow.md",
     "Knowledge/Rust/Core/Language Basics/Functions.md",
@@ -219,7 +226,6 @@
     "Knowledge/Rust/Core",
     "Knowledge/Rust/Core/CLI Utilities",
     "Knowledge/Rust/Core/Cryptography",
-    "Knowledge/Rust/Core/Database & ORM",
     "Knowledge/Rust/Rust (MOC).md",
     "Knowledge/Rust/Rust - Overview.md",
     "Knowledge/Programming Concepts/Template for introduction to new Programming Language.md",
@@ -229,8 +235,6 @@
     "Knowledge/Rust/Tools/Build & Tools/rustup.md",
     "Knowledge/Rust/Tools/Build & Tools/rustc.md",
     "Knowledge/Rust/Tools/Build & Tools/Cargo.md",
-    "Inbox/Resources for learning.md",
-    "Inbox/SPA - Single Page Applications.md",
     "Media/Pasted image 20260426160759.png",
     "Pasted image 20260426160759.png",
     "Без назви.canvas"
